@@ -2,7 +2,7 @@
 ___
 This is a documentation of the progress made on my project.
 
-Scarlet File is part of the private VastHeap domain project that publishes my researches and software for educational purposes.
+Scarlet File is part of the private VastHeap domain project that publishes my researches for educational purposes.
 
 This tool is focused on two main features. The first is a custom scripting editor that allows direct interaction with the analyzing process. It can overrides pre-set and hardcoded instructions, as well as introduce new rules.
 A simple example would be the following script:
@@ -24,3 +24,7 @@ Goes without saying that the default operators are functional.
 ___
 
 Second feature would be cloud computing. Even though the tool has many features (string, pe headers, and module analysis, and executable extractor); I am aiming to make it all real-time cloud based by using .NET as the multi-threaded serving server, and PHP as the frontend regulator that handles requests, run simple checks and so forth. Progress on this end is limited within my website which is not available to the public unforunately. 
+
+Al though I cannot yet share my code; I will explain briefly how the analysis takes place.
+Relying on heuristic byte inspection, I have managed to extract many information from any piece of software, packet/obfuscated or not. 
+It also is capable of analysing native .NET functions and modules separetly. 
